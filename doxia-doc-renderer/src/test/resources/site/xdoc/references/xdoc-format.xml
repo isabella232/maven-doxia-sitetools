@@ -110,7 +110,7 @@ code line 2
           <code>&lt;h6&gt;</code>) inside a subsection. For instance,
         </p>
 
-        <source><![CDATA[<h4>A subsubsection</h4>]]></source>
+        <source><![CDATA[<h3>A subsubsection</h3>]]></source>
 
         <p>
           will produce:

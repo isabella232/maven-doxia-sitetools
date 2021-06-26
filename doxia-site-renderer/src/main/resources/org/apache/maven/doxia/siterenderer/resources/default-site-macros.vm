@@ -287,12 +287,12 @@ $indent      </ul>##
 #*      *##set ( $img = '<img class="imageLink"' + $src + $alt + $border + $width + $height + $title + "/>" )
 ##
 #*      *##if ( $position == "left" )
-        <h5>$img $menu.name</h5>
+        <h4>$img $menu.name</h4>
 #*      *##else
-        <h5>$menu.name $img</h5>
+        <h4>$menu.name $img</h4>
 #*      *##end
 #*    *##else
-       <h5>$menu.name</h5>
+       <h4>$menu.name</h4>
 #*    *##end
 #*  *##end
 #*  *##if ( $menu.items && $menu.items.size() > 0 )
